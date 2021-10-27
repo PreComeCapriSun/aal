@@ -5,5 +5,5 @@ const body = document.querySelector('body')
 
 slider.addEventListener('input', (event) => {
     sakko.style.filter = " saturate(" + slider.value * 3 + "%)";
-    aal.style.width = (slider.value * 2 + 'vw');
+    aal.style.width = (slider.value + 'vw');
 });
